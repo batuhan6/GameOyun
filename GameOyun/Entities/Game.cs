@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace GameOyun.Entities
+{
+    class Game
+    {
+        public string GameName { get; set; }
+
+        public double GamePrice { get; set; }
+
+        public string GameCategory { get; set; }
+    }
+}
